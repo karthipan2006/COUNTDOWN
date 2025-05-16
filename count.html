@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           background-image: url(photo.jpg.jpg);
+           color: aliceblue;
+            font-family: Arial, sans-serif;
+            text-shadow: 0cqb;
+        }
+        .container {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="count">Get Ready!</h1>
+    </div>
+    <script>
+        setTimeout(()=>{
+            document.getElementById("count").innerHTML = "10"
+        setTimeout(()=>{
+            document.getElementById("count").innerHTML = "9"
+        setTimeout(()=>{
+            document.getElementById("count").innerHTML = "8"
+        setTimeout(()=>{
+            document.getElementById("count").innerHTML = "7"
+setTimeout(()=>{
+            document.getElementById("count").innerHTML = "6"
+setTimeout(()=>{
+            document.getElementById("count").innerHTML = "5"
+setTimeout(()=>{
+            document.getElementById("count").innerHTML = "4"
+       
+       
+       setTimeout(() => {
+            document.getElementById("count").innerHTML = "3";
+
+            setTimeout(() => {
+                document.getElementById("count").innerHTML = "2";
+
+                setTimeout(() => {
+                    document.getElementById("count").innerHTML = "1";
+
+                    setTimeout(() => {
+                        document.getElementById("count").innerHTML = "🎉 Happy New Year! 🎉";
+                        console.log("Happy New Year");
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
+    },1000);
+},1000);
+},1000);
+        },1000);
+        },1000);
+    },1000);
+},1000);
+    </script>
+</body>
+</html>

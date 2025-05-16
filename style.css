@@ -1,0 +1,40 @@
+*{
+   background-image:url(background.jpg);
+   
+   background-repeat :no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   backdrop-filter: blur(8px);
+   font-style: oblique;
+   
+}
+   a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+   }
+
+   
+ol{
+   font-size: larger;
+   color: black;
+}
+ul{
+   font-size: larger;
+}
+
+form{
+   font-size: ;
+}
+a{
+   color: black;
+}
+::placeholder{
+   color:black;
+font-size: 14;
+}
+
+h1{
+   
+}
